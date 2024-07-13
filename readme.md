@@ -8,5 +8,5 @@ git clone https://github.com/moto-sm8550-Evo/manifest -b lineage-21 .repo/local_
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 
 cd device/motorola/rtwo; ./extract-files.sh; cd ../../..
-. build/envsetup.sh; lunch lineage_dm3q-userdebug; m evolution
+. build/envsetup.sh; lunch 45; m evolution
 ```
