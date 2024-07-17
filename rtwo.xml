@@ -21,5 +21,6 @@
     <project name="LineageOS/android_hardware_motorola" path="hardware/motorola" remote="github" revision="lineage-21"/>
 
     <!-- Packages -->
+        <remove-project name="LineageOS/android_packages_apps_Updater" path="packages/apps/Updater"/>
     <project  name="moto-sm8550-Evo/packages_apps_Updater" path="packages/apps/Updater" remote="github" revision="udc"/>
 </manifest>
