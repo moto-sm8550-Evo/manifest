@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- device trees -->
-    <project name="moto-sm8550-Evo/android_device_motorola_sm8550-common" path="device/motorola/sm8550-common" remote="github" revision="lineage-21"/>
-    <project name="moto-sm8550-Evo/android_device_motorola_rtwo" path="device/motorola/rtwo" remote="github" revision="lineage-21"/>
+    <project name="moto-sm8550-Evo/android_device_motorola_sm8550-common" path="device/motorola/sm8550-common" remote="github" revision="udc"/>
+    <project name="moto-sm8550-Evo/android_device_motorola_rtwo" path="device/motorola/rtwo" remote="github" revision="udc"/>
 
     <!-- kernel -->
     <project name="LineageOS/android_kernel_motorola_sm8550" path="kernel/motorola/sm8550" remote="github" revision="lineage-21"/>
@@ -10,8 +10,8 @@
     <project name="LineageOS/android_kernel_motorola_sm8550-modules" path="kernel/motorola/sm8550-modules" remote="github" revision="lineage-21"/>
 
     <!-- vendor -->
-    <project name="moto-sm8550-Evo/vendor_motorola_sm8550-common" path="vendor/motorola/sm8550-common" remote="github" revision="lineage-21"/>
-    <project name="moto-sm8550-Evo/vendor_motorola_rtwo" path="vendor/motorola/rtwo" remote="github" revision="lineage-21"/>
+    <project name="moto-sm8550-Evo/vendor_motorola_sm8550-common" path="vendor/motorola/sm8550-common" remote="github" revision="udc"/>
+    <project name="moto-sm8550-Evo/vendor_motorola_rtwo" path="vendor/motorola/rtwo" remote="github" revision="udc"/>
 
     <!-- External -->
     <project name="LineageOS/android_external_bson" path="external/bson" remote="github" revision="lineage-21"/>
